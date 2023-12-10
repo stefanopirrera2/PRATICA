@@ -1,0 +1,20 @@
+﻿* Capire cosa fa il programma senza eseguirlo
+Il programma svolge funzioni da assistente digitale in grado di moltiplicare e dividere 2 numeri
+
+
+* Individuare dal codice sorgente le casistiche non standard che il programma non gestisce (esempio, comportamenti potenziali che non sono stati contemplati)
+Non specifica cosa accada in caso inserire lettere diverse da A,B o C. Possiamo notare anche come accetti solo un massimo di 10 caratteri, quindi nel caso in cui dovessimo inserirne 11 o più il programma andrà in overflow e per ultimo il programma non specifica cosa accada in caso di inserire 0 come denominatore quindi portando ad un probabile errore.
+
+
+* Individuare eventuali errori di sintassi / logici
+1. int divisione a%b 
+2. char scelta {0}
+3. short int a,b =0
+4. int a,b = 0 
+
+
+* Proporre una soluzione per ognuno di essi
+1. Sostituire % con /
+2. in questo caso non vanno usate parentesi graffe {}, ma tonde ()
+3. possiamo solo usare short o solo int e = 0 va rimosso
+4. qui semplicemente dobbiamo rimuovere = 0
