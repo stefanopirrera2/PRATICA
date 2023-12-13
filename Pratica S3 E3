@@ -1,0 +1,31 @@
+def calcola_perimetro_figura():
+    print("Il programma calcola il perimetro di una figura geometrica :D")
+    print("Digita un numero per scegliere una figura geometrica:")
+    print("1 - Quadrato")
+    print("2 - Cerchio")
+    print("3 - Triangolo")
+    while True:
+        scelta = int(input(">>> "))
+        if scelta == 1:
+            print("Hai selezionato il perimetro del Quadrato")
+            lato = float(input("Inserisci la lunghezza del lato in cm: "))
+            perimetroQ = lato*4
+            print("Il perimetro del quadrato è:", perimetroQ, "cm")
+            break
+        elif scelta == 2:
+            print("Hai selezionato il perimetro del Cerchio")
+            raggio = float(input("Inserisci la lunghezza del raggio in cm: "))
+            perimetroC = 2*3.14*raggio
+            print("Il perimetro del Cerchio è:", perimetroC, "cm")
+            break
+        elif scelta == 3:
+            print("Hai selezionato il perimetro del Triangolo")
+            base = float(input("Inserisci la lunghezza della base in cm: "))
+            altezza = float(input("Inserisci l'altezza  in cm: "))
+            perimetroT = base*2+altezza*2
+            print("Il perimetro del Triangolo è:", perimetroT, "cm")
+            break
+        else:
+            print("Perfavore inserire una delle opzione mostrate")
+
+calcola_perimetro_figura()
