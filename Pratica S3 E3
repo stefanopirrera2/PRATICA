@@ -6,7 +6,7 @@ def calcola_perimetro_figura():
     print("3 - Triangolo")
     print("4 - Per terminare il programma")
     while (True):
-        scelta = int(input(">>> "))
+        scelta = int(input())
         if scelta == 1:
             print("Hai selezionato il perimetro del Quadrato")
             lato = float(input("Inserisci la lunghezza del lato in cm: "))
