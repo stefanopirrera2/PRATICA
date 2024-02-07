@@ -1,0 +1,6 @@
+SOC - sono dati che vanno analizzati sotto richiesta dell'azienda potrebbero essere IP, file, ecc
+
+
+spoofing of user identity - impersonificare un utente valido di un sistema
+
+tampering - alterare un sistema causando dano ad esso o ad un componente
