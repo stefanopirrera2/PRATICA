@@ -1,0 +1,56 @@
+﻿Tecniche di Isolamento
+
+
+Monitoraggio del Traffico di Rete - Utilizzare strumenti di monitoraggio del traffico di rete per identificare eventuali attività sospette o traffico anomalo che potrebbero indicare la presenza di ulteriori intrusioni o movimenti laterali all'interno della rete.
+
+
+Analisi dei Log del Firewall - Esaminare attentamente i log del firewall per individuare eventuali tentativi di accesso non autorizzato o traffico dannoso. Questo può aiutare a identificare le modalità di ingresso dell'attaccante e adottare misure preventive mirate.
+
+
+Rafforzare le Regole del Firewall - Verificare e aggiornare le regole del firewall per garantire che siano configurate in modo corretto e che bloccano il traffico non autorizzato proveniente dall'esterno e all'interno della rete.
+
+
+
+
+Tecniche di Rimozione del Sistema Infetto
+
+
+Analisi Forense - Condurre un'analisi forense approfondita sui sistemi compromessi per identificare la portata dell'attacco, le vulnerabilità sfruttate e le possibili backdoor lasciate dall'attaccante.
+
+
+Formattazione e Reinstallazione del Sistema Operativo - Formattare i sistemi compromessi e reinstallare il sistema operativo da zero per garantire l'eliminazione completa di eventuali malware o software dannosi presenti nel sistema.
+
+
+Cambiare le Credenziali di Accesso - Dopo aver ripristinato i sistemi compromessi, cambiare tutte le credenziali di accesso (password) per garantire che l'attaccante non possa più accedere ai sistemi con le credenziali precedentemente compromesse.
+
+
+Protezione Futura
+
+
+Aggiornamenti e Patching - Assicurarsi che tutti i sistemi e le applicazioni siano aggiornati con gli ultimi patch di sicurezza per mitigare le vulnerabilità conosciute e ridurre il rischio di futuri attacchi.
+
+
+Consapevolezza della Sicurezza - Condurre sessioni di formazione sulla consapevolezza della sicurezza per sensibilizzare gli utenti sulla minaccia degli attacchi informatici e insegnare loro le migliori pratiche per proteggere i dati sensibili e prevenire gli attacchi.
+
+
+Auditing dei Sistemi - Implementare procedure regolari di auditing dei sistemi per identificare e risolvere eventuali vulnerabilità di sicurezza prima che possano essere sfruttate dagli attaccanti.
+
+
+
+
+
+
+
+
+
+
+Per concludere possiamo affermare che per affrontare efficacemente l'attacco e proteggere le informazioni sensibili, è fondamentale combinare le tecniche di isolamento e rimozione del sistema infetto con l'uso appropriato delle tecniche di Purge, Destroy e Clear per eliminare definitivamente i dati compromessi.
+
+
+Purge - La purga dei dati comporta la sovrascrittura completa dei dati memorizzati sui dischi rigidi con dati casuali o nulli.
+
+
+Destroy - La distruzione fisica dei dischi rigidi è un metodo estremo di eliminazione dei dati sensibili.
+
+
+Clear - Il processo di cancellazione dei dati implica la rimozione dei file e dei dati dai dischi rigidi. Questa operazione non garantisce la totale eliminazione dei dati.
