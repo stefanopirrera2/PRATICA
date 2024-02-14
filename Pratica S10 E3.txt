@@ -1,0 +1,21 @@
+﻿Dato il codice in Assembly per la CPU x86 allegato qui di seguito, identificare lo scopo di ogni istruzione.
+1. 0x00001141 <+8>:     mov    EAX,0x20 
+2. 0x00001148 <+15>:   mov    EDX,0x38 
+3. 0x00001155 <+28>:   add    EAX,EDX 
+4. 0x00001157 <+30>:   mov   EBP, EAX 
+5. 0x0000115a <+33>:   cmp   EBP,0xa 
+6. 0x0000115e <+37>:   jge      0x1176 <main+61> 
+7. 0x0000116a <+49>:   mov   eax,0x0 0x0000116f <+54>:    call    0x1030 <printf@plt>
+
+
+
+
+
+
+1. mov EAX,0x20: Carica il valore esadecimale 0x20 (32 in decimale) nel registro EAX.
+2. mov EDX,0x38: Carica il valore esadecimale 0x38 (56 in decimale) nel registro EDX.
+3. add EAX,EDX: Aggiunge il contenuto del registro EDX al registro EAX e memorizza il risultato in EAX.
+4. mov EBP,EAX: Copia il valore contenuto nel registro EAX nel registro EBP.
+5. cmp EBP,0xa: Compara il contenuto del registro EBP con il valore esadecimale 0xA (10 in decimale).
+6. jge 0x1176 <main+61>
+7. mov   eax,0x0 0x0000116f <+54>:    call    0x1030 <printf@plt>
